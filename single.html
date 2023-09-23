@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soluzioni informatiche</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css"
+      integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img class="img" src="assets/Logo2.png" alt="logo" />
+      </div>
+      <ul class="menu">
+        <li><a href="./index.html" class="">Home</a></li>
+        <li><a href="./single.html" class="">Single</a></li>
+        <li><a href="#" class="">Contact</a></li>
+      </ul>
+      <div class="cta">
+        <a href="tel:+393518584285" class="button">Chiamami </a>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+    <div class="hero">
+      <div class="hero__content">
+        <p class="intro-text">non esistono problemi ma solo soluzioni</p>
+        <h1 class="big-text">Informatica per tutti</h1>
+        <a href="#" class="button">Discover More</a>
+      </div>
+    </div>
+
+    <div class="grid mt-3">
+      <div class="col">
+        <p class="mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam
+          saepe officia nulla molestias veritatis quisquam ab perspiciatis
+          aliquid at voluptatibus dolores odio quae vitae, ipsa delectus
+          pariatur eius repellat.
+        </p>
+      </div>
+      <div class="col">
+        <p class="mt-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam
+          saepe officia nulla molestias veritatis quisquam ab perspiciatis
+          aliquid at voluptatibus dolores odio quae vitae, ipsa delectus
+          pariatur eius repellat.
+        </p>
+      </div>
+      <div class="col">
+        <h3 class="big-text">Lorem ipsum <br />sia maet</h3>
+      </div>
+    </div>
+
+    <footer class="footer mt-3">
+      <div class="grid">
+        <div class="col">
+          <h4 class="normal-text tw">Lorem ispum</h4>
+          <p>Lorem ipsum dos aia sm</p>
+        </div>
+        <div class="col">
+          <h4 class="normal-text tw">Lorem ispum</h4>
+          <p>Lorem ipsum dos aia sm</p>
+        </div>
+        <div class="col">
+          <h4 class="normal-text tw">Lorem ispum</h4>
+          <p>Lorem ipsum dos aia sm</p>
+        </div>
+        <div class="col">
+          <h4 class="normal-text tw">Lorem ispum</h4>
+          <p>Lorem ipsum dos aia sm</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Jquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js"
+      integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        /* Open menu*/
+        $(".hamburger").on("click", function () {
+          $(".menu").toggleClass("menu--open");
+        });
+      });
+    </script>
+  </body>
+</html>
