@@ -1,0 +1,174 @@
+<!--Section: Contact v.2-->
+<section class="mb-4">
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">
+    Do you have any questions? Please do not hesitate to contact us directly.
+    Our team will come back to you within a matter of hours to help you.
+  </p>
+
+  <div class="row text-center">
+    <!--Grid column-->
+    <div
+      class="col-md-9 mb-md-0 mb-5"
+      style="align-items: center; margin: auto"
+    >
+      <form
+        id="contact-form"
+        name="contact-form"
+        action="mail.php"
+        method="POST"
+      >
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="name" name="name" class="form-control" />
+              <label for="name" class="">Your name</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="email" name="email" class="form-control" />
+              <label for="email" class="">Your email</label>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-control"
+              />
+              <label for="subject" class="">Subject</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea
+                type="text"
+                id="message"
+                name="message"
+                rows="2"
+                class="form-control md-textarea"
+              ></textarea>
+              <label for="message">Your message</label>
+            </div>
+          </div>
+        </div>
+        <!--Grid row-->
+      </form>
+
+      <div class="text-center text-md-left">
+        <a
+          class="button"
+          onclick="document.getElementById('contact-form').submit();"
+          >Send</a
+        >
+      </div>
+      <div class="status"></div>
+    </div>
+    <!--Grid column-->
+  </div>
+</section>
+<!--Section: Contact v.2-->
+
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem;
+  }
+
+  .text-container {
+    color: #fff;
+    width: 100%;
+    letter-spacing: 1.2px;
+  }
+
+  .text-container h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  form {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .tryIt {
+    width: 100%;
+    background-color: #225077;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+  }
+
+  input {
+    width: 100%;
+    min-height: 2rem;
+    margin-bottom: 0.6rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .trialBtn {
+    width: 100%;
+    background-color: #009100;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+  a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
