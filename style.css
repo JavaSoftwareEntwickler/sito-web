@@ -203,11 +203,6 @@ form {
   min-height: 50vh;
 }
 
-@media (max-width: 768px){
-  .container{ flex-wrap: wrap; height: auto; }
-  .form-container { width: 100%; }
-
-}
 
 
 .tryIt {
@@ -252,6 +247,40 @@ input {
   font-weight: bold;
   text-decoration: none;
 }
+
+@media (max-width: 768px){
+  .container{ flex-wrap: wrap;  width: 100%;  }
+  .form-container {width: 100%; }
+  form{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 8.5rem;
+    border: 2px solid #225077;
+  }
+  form .trialBtn{
+    width: 200px;
+    margin-left: -100px;
+  }
+  form input,
+  form p{
+    
+    font-family: inherit;
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-left: -100px;
+  }
+  form p{border: none;}
+
+  form .tryIt{
+    border: 3px #117c11;
+  }
+
+}
+
 
 /************************************/
 
