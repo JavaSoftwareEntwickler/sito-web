@@ -163,6 +163,100 @@ padding: 100px 30px;
 
 }
 
+
+
+/************************************/
+/* Form */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem;
+  max-width: 1420px; margin: 0 auto;
+}
+
+.text-container {
+  color: #fff;
+  width: 100%;
+
+}
+
+
+.text-container h1 { color: #000; padding-bottom: 30px; }
+.text-container p { line-height: 28px; color: #666; font-weight: 300; }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 8.5rem;
+  border: 2px solid #225077;
+  width: 100%;
+  min-height: 50vh;
+}
+
+@media (max-width: 768px){
+  .container{ flex-wrap: wrap; height: auto; }
+  .form-container { width: 100%; }
+
+}
+
+
+.tryIt {
+  width: 100%;
+  background-color: #225077;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  width: 100%;
+  min-height: 2rem;
+  margin-bottom: 0.6rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding-left: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.trialBtn {
+  width: 100%;
+  background-color: #117c11;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.description a{
+  color: rgb(177, 24, 24);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/************************************/
+
+
+
 /*  Footer */
 .footer{
     background: #225077;
@@ -170,96 +264,17 @@ padding: 100px 30px;
 }
 
 
-/************************************/
-/* Form */
-
-.container {
-  
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 4rem;
-    max-width: 1420px; margin: 0 auto;
-  }
-
-  .text-container {
-    color: #fff;
-    width: 100%;
-
-  }
-  
-
-.text-container h1 { color: #000; padding-bottom: 30px; }
-.text-container p { line-height: 28px; color: #666; font-weight: 300; }
-
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  form {
-    background-color: #fff;
-    border-radius: 15px;
-    padding: 8.5rem;
-    border: 2px solid #225077;
-    width: 100%;
-    min-height: 50vh;
-  }
-
-  .tryIt {
-    width: 100%;
-    background-color: #225077;
-    color: #fff;
-    padding: 1rem 1.5rem;
-    border: none;
-    font-size: 0.7rem;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-bottom: 0.8rem;
-  }
-
-  input {
-    width: 100%;
-    min-height: 2rem;
-    margin-bottom: 0.6rem;
-    font-family: inherit;
-    font-size: 0.8rem;
-    padding-left: 0.3rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-
-  .trialBtn {
-    width: 100%;
-    background-color: #117c11;
-    color: #fff;
-    padding: 1rem 1.5rem;
-    border: none;
-    font-size: 0.7rem;
-    font-weight: bold;
-    border-radius: 10px;
-    margin-bottom: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 1.3px;
-  }
-
-  .description a{
-    color: rgb(177, 24, 24);
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-/************************************/
 
 
 /*  Helpers */
 
 .mt-1{margin-top: 50px;}
 .mt-2{margin-top: 100px;}
+.mt-2_5{margin-top: 125px;}
 .mt-3{margin-top: 150px;}
+.mt-3_5{margin-top: 175px;}
+.mt-4{margin-top: 200px;}
+.mt-5{margin-top: 250px;}
 
 .tw{ color: #fff; }
 .tb{ color: black; }
