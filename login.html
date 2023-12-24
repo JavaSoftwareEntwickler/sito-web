@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Soluzioni Informatiche Contattami</title>
+    <title>Soluzioni Informatiche Login</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico" />
     <script type="module" src="/js/main.js"></script>
     <script type="text/javascript" src="/js/request.js"></script>
@@ -30,16 +30,9 @@
       </div>
       <div class="form-container">
         <button class="tryIt">
-          <span class="bold">Contact</span>
+          <span class="bold">Login</span>
         </button>
-        <form>
-          <input type="text" id="name" name="name" placeholder="Name" />
-          <input
-            type="text"
-            id="lastName"
-            name="lastName"
-            placeholder="Last Name"
-          />
+        <form id="formLogin">
           <input type="email" id="email" name="email" placeholder="Email" />
           <input
             type="password"
@@ -47,10 +40,10 @@
             name="password"
             placeholder="Password"
           />
-          <button class="trialBtn">Send message</button>
+          <button class="trialBtn" type="submit" value="Submit">LOGIN</button>
           <p class="description">
-            By clicking this button, you are agreeding with the
-            <a href="#">Terms and Services</a>
+            Non sei ancora registrato?<br />
+            <a href="./registrati.html">Registrati</a>
           </p>
         </form>
       </div>

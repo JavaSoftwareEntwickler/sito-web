@@ -78,7 +78,7 @@ p { line-height: 28px; color: #666; font-weight: 300; }
     width: 100%;
     align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.0), rgba(0,0,0,0.4)), 
-                url(assets/bg-video.png) no-repeat center center;
+                url(../assets/bg-video.png) no-repeat center center;
     background-size: cover;
 }
 .hero__content{ padding: 30px; width: 100%; max-width: 1350px; margin: 0 auto; }
@@ -106,7 +106,7 @@ p { line-height: 28px; color: #666; font-weight: 300; }
 .bg-cover{ display: flex; padding: 100px 0;
     align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,0.8)), 
-                url(assets/bg-video.png) no-repeat center center;
+                url(../assets/bg-video.png) no-repeat center center;
     background-size: cover;}
 
 .bg-cover__text{ width: 50%; padding: 30px;}
