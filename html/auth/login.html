@@ -20,12 +20,18 @@
 
     <div class="container mt-2_5">
       <div class="text-container">
-        <h1 class="big-text">Do you have any questions?</h1>
+        <div class="area_riservata_img">
+          <img src="/assets/luchetto.png" alt="luchetto di sicurezza" />
+          <h1 class="big-text">&nbsp;Area Riservata</h1>
+        </div>
+
         <h3 class="normal-text">
-          Please do not hesitate to contact us directly.
+          Ricordati di presentarci un/a tuo amico/a, amplierai così i tuoi
+          vantaggi.
         </h3>
         <p>
-          Our team will come back to you within a matter of hours to help you.
+          Ogni volta che un tuo amico utilizzera i nostri servizi riceverai un
+          bonus.
         </p>
       </div>
       <div class="form-container">
@@ -33,18 +39,37 @@
           <span class="bold">Login</span>
         </button>
         <form id="formLogin">
-          <input type="email" id="email" name="email" placeholder="Email" />
+          <p id="credenzialiErrate">Credenziali errate</p>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
           <input
             type="password"
             id="password"
             name="password"
             placeholder="Password"
+            required
           />
-          <button class="trialBtn" type="submit" value="Submit">LOGIN</button>
-          <p class="description">
-            Non sei ancora registrato?<br />
-            <a href="/html/auth/registrati.html">Registrati</a>
-          </p>
+          <button
+            id="trialBtnLogin"
+            class="trialBtn"
+            type="submit"
+            value="Submit"
+          >
+            LOGIN
+          </button>
+          <div id="pswDimenticata">
+            <p class="description">
+              Hai dimenticato la password?<br />
+              <a href="/html/auth/registrati.html"
+                >Azzera l'attuale e richiedine una nuova</a
+              >
+            </p>
+          </div>
         </form>
       </div>
     </div>

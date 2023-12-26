@@ -22,7 +22,7 @@ class CommonHead extends HTMLElement {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="/css/style.css" />
+  
     `
   }
 }
@@ -43,6 +43,9 @@ class CommonHeader extends HTMLElement {
           </ul>
           <div class="cta">
             <a id="loginButton" href="/html/auth/login.html" class="button">Login</a>
+          </div>
+          <div class="cta">
+            <a id="logOutButton" href="#" class="button">Logout</a>
           </div>
           <div class="hamburger"><span></span><span></span><span></span></div>
     </div> `

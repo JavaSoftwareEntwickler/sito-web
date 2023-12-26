@@ -26,6 +26,8 @@ p { line-height: 28px; color: #666; font-weight: 300; }
 
 
 
+
+
 @media (max-width: 768px){
 .big-text{font-size: 40px; font-weight: 900;}    
 }
@@ -52,6 +54,7 @@ p { line-height: 28px; color: #666; font-weight: 300; }
     width: 100px;
     height: 45px;
 }
+
 
 .menu{
     width: 100%;
@@ -182,9 +185,31 @@ padding: 100px 30px;
 
 }
 
+.area_riservata_img img{
+  float: left;
+  width: 52px;
+  height: 60px;
+}
+.area_riservata_img h1{
+  position: relative;
+  color: #000; padding-bottom: 30px; 
+
+}
+#credenzialiErrate {display: none;}
+#credenzialiErrate.invalid { display:block; color: red; }
+
+.hidden {display: none;}
+
+.show{display: block;}
+
+.input_invalid {
+  border-color: red;
+}
 
 .text-container h1 { color: #000; padding-bottom: 30px; }
+
 .text-container p { line-height: 28px; color: #666; font-weight: 300; }
+
 
 .form-container {
   display: flex;
@@ -242,6 +267,7 @@ input {
   letter-spacing: 1.3px;
 }
 
+
 .description a{
   color: rgb(177, 24, 24);
   font-weight: bold;
@@ -250,6 +276,20 @@ input {
 
 @media (max-width: 768px){
   .container{ flex-wrap: wrap;  width: 100%;  }
+
+
+  .area_riservata_img img { 
+    flex-wrap: wrap;  
+    float: left;
+    width: 26px;
+    height: 34px;
+  }
+
+  .area_riservata_img h1{
+    position: relative;
+    color: #000; padding-bottom: 30px; 
+  }
+  
   .form-container {width: 100%; }
   form{
     width: 100%;
